@@ -1,7 +1,7 @@
 Detect-modified-files
 =====================
 
-Detect, and report via e-mail, changes in files from a directory in a specified time period.
+Detect changes in files from a directory in a specified time period and report via e-mail.
 
 This script is intended to run as an automated task in crontab, and provides a quick way of alerting
 changes in files due to hacking attempts or other uncontrolled issues.
