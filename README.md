@@ -21,15 +21,15 @@ directory of the main script; if this file exists the --config parameter can be 
 
 Available configuration options in the config file:
 
-dir				Required	The directory where performs the scan.
+dir			Required	The directory where performs the scan.
 hours			Required	Files changed in the recent specified hours.
 minutes			Required	Files changed in the last minutes.
 niceness		Optional	Script process priority from -20 to highest priority to 19, or false to disable it.
 extensions		Optional	Limit the file search to the extensions of this array.
 excludes		Optional	Exclude results matched by any string of this array.
-email_if_empty	Optional	When false, it does not send the e-mail if no results.
+email_if_empty		Optional	When false, it does not send the e-mail if no results.
 email_to		Required	The recipient's e-mail.
-email_subject	Optional	Partial subject of the e-mail to identify server.
+email_subject		Optional	Partial subject of the e-mail to identify server.
 
 The hours and minutes parameters should be consistent with the period over the crontab and the time wasted to
 perform the whole search. For example, for a hourly cron task, the hours should be 1 hour, and set 5 minutes
@@ -37,9 +37,6 @@ to support the approximate script execution time.
 
 Licensed under the GPL version 3 or later:
 http://www.gnu.org/licenses/gpl.txt
-
-Regards,
-Pau Iglesias
 
 Blogestudio
 http://blogestudio.com/
