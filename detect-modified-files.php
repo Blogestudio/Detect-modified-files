@@ -9,7 +9,7 @@
  * 
  * The `config` parameter refers to the config file located in the directory or subdirectories
  * from this script location. This parameter is optional, if omitted the script will attempt
- * to load by default the file `detect-modified-files.php` in the same script directory.
+ * to load by default the file `detect-modified-files-config.php` in the same script directory.
  */
 
 // End if is running under web server
